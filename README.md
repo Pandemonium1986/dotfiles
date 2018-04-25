@@ -16,9 +16,6 @@ sudo apt install build-essential module-assistant mlocate net-tools vim tmux sud
 ### Installing
 L'installation se déroule de la manière suivante.
 
-Say what the step will be
-
-sudo apt install build-essential module-assistant mlocate net-tools vim tmux sudo zsh fonts-powerline powerline libfortune-perl cowsay resolvconf
 ```
 cd ~
 mkdir -p ~/git/Pandemonium1986
@@ -27,7 +24,6 @@ git clone https://github.com/Pandemonium1986/dotfiles
 ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
 ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
 ```
-
 
 ## Authors
 * **Jérémy Baumgarth** - *Initial work* - [jebovic](https://github.com/jebovic)
