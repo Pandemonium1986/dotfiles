@@ -19,7 +19,7 @@ L'installation se déroule de la manière suivante.
 ```
 cd ~
 mkdir -p ~/git/Pandemonium1986
-cd git
+cd  ~/git/Pandemonium1986
 git clone https://github.com/Pandemonium1986/dotfiles
 ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
 ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
