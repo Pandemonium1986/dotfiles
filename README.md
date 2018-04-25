@@ -13,6 +13,11 @@ Il s'agit de ma "One line install" pour debian 9.
 sudo apt install vim build-essential module-assistant dkms sudo net-tools mlocate dnsutils nmap git gitk zsh curl powerline fonts-powerline tmux libfortune-perl cowsay resolvconf
 ```
 
+Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé.
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
 ### Installing
 L'installation se déroule de la manière suivante.
 
@@ -21,8 +26,8 @@ cd ~
 mkdir -p ~/git/Pandemonium1986
 cd  ~/git/Pandemonium1986
 git clone https://github.com/Pandemonium1986/dotfiles
-ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
-ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
+rm ~/.zshrc ; ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
+rm ~/.zshenv ; ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
 ```
 
 ## Authors
