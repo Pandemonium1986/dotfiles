@@ -10,7 +10,7 @@ Certain alias ne sont efficaces que si les logiciels qu’ils référencent sont
 Il s'agit de ma "One line install" pour debian 9.
 
 ```
-sudo apt install build-essential module-assistant mlocate net-tools vim tmux sudo zsh fonts-powerline powerline libfortune-perl cowsay resolvconf
+sudo apt install vim build-essential module-assistant dkms sudo net-tools mlocate dnsutils nmap git gitk zsh curl powerline fonts-powerline tmux libfortune-perl cowsay resolvconf
 ```
 
 ### Installing
