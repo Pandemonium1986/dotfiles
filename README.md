@@ -10,13 +10,19 @@ Certain alias ne sont efficaces que si les logiciels qu’ils référencent sont
 Il s'agit de ma "One line install" pour debian 9.
 
 ```
-sudo apt install vim build-essential module-assistant dkms sudo net-tools mlocate dnsutils nmap git gitk zsh curl powerline fonts-powerline tmux libfortune-perl cowsay resolvconf
+sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk libfortune-perl mlocate module-assistant net-tools nmap powerline resolvconf sudo tmux tree vim zsh
 ```
 
 Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé.
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+Il faut aussi que [tmuxifier](https://github.com/jimeh/tmuxifier) soit installé.
+```
+git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
+```
+
 
 ### Installing
 L'installation se déroule de la manière suivante.

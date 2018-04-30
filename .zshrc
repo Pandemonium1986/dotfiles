@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # Personnal aliases
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
+
+# Tmuxifier init
+eval "$(tmuxifier init -)"
