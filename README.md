@@ -10,7 +10,7 @@ Certain alias ne sont efficaces que si les logiciels qu’ils référencent sont
 Il s'agit de ma "One line install" pour debian 9.
 
 ```
-sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk libfortune-perl mlocate module-assistant net-tools nmap powerline resolvconf sudo tmux tree vim zsh
+sudo apt update && sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk htop libfortune-perl mlocate module-assistant net-tools nmap powerline resolvconf sudo tmux tree vim zsh
 ```
 
 Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé.
@@ -29,12 +29,15 @@ L'installation se déroule de la manière suivante.
 
 ```
 cd ~
+ssh $(whoami)@localhost
+exit
 mkdir -p ~/git/Pandemonium1986
 cd  ~/git/Pandemonium1986
 git clone https://github.com/Pandemonium1986/dotfiles
 rm ~/.zshrc ; ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
 rm ~/.zshenv ; ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
 rm ~/.tmux.conf ; ln -s ~/git/Pandemonium1986/dotfiles/.tmux.conf ~/.tmux.conf
+rm ~/.tmux-layouts; ln -s ~/git/Pandemonium1986/dotfiles/.tmux-layouts ~/.tmux-layouts
 source ~/.zshrc
 ```
 
