@@ -34,10 +34,8 @@ exit
 mkdir -p ~/git/Pandemonium1986
 cd  ~/git/Pandemonium1986
 git clone https://github.com/Pandemonium1986/dotfiles
-rm ~/.zshrc ; ln -s ~/git/Pandemonium1986/dotfiles/.zshrc ~/.zshrc
-rm ~/.zshenv ; ln -s ~/git/Pandemonium1986/dotfiles/.zshenv ~/.zshenv
-rm ~/.tmux.conf ; ln -s ~/git/Pandemonium1986/dotfiles/.tmux.conf ~/.tmux.conf
-rm ~/.tmux-layouts; ln -s ~/git/Pandemonium1986/dotfiles/.tmux-layouts ~/.tmux-layouts
+cd dotfiles
+./install.sh all
 source ~/.zshrc
 ```
 
