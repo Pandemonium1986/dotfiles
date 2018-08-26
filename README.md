@@ -10,7 +10,7 @@ Certain alias ne sont efficaces que si les logiciels qu’ils référencent sont
 Il s'agit de ma "One line install" pour debian 9.
 
 ```
-sudo apt update && sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk htop libfortune-perl mlocate module-assistant net-tools nmap powerline resolvconf sudo tmux tree vim zsh
+sudo apt update && sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk htop libfortune-perl man mlocate module-assistant net-tools nmap powerline sudo tmux tree unzip vim zsh
 ```
 
 Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé.
