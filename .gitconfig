@@ -1,6 +1,6 @@
 [user]
 	email = mi.ma@gmail.com
-	name = Pandemonium
+	name = Pandemonium1986
 [push]
 	default = matching
 [alias]
@@ -15,12 +15,11 @@
 	lola = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s' --date=short --graph --all
 	ls = ls-files
 	tags = tag -l -n10
-							 
+
  	# Show files ignored by git:
 	ign = ls-files -o -i --exclude-standard
-									 
+
 [color]
 	ui = auto
 [core]
 	editor = vim
-
