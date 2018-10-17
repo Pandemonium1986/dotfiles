@@ -8,7 +8,7 @@ new_window "main"
 
 # Split window into panes.
 split_h 21
-run_cmd "watch -tn 3600 'fortune -a /home/pandemonium/.oh-my-zsh/plugins/chucknorris/fortunes | cowthink'" 1
+run_cmd "watch -tn 3600 'fortune -a /home/$USER/.oh-my-zsh/plugins/chucknorris/fortunes | cowthink'" 1
 split_v 66
 run_cmd "watch -tn 3600 'df -h --output=target,used,avail,size,pcent'"
 split_v 50
@@ -24,4 +24,3 @@ run_cmd "htop" 3
 
 # Set active pane.
 select_pane 0
-
