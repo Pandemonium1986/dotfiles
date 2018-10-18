@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/$USER/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -60,14 +60,18 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  git-flow
   colored-man-pages
+  composer
   chucknorris
   debian
   extract
   history
   ssh-agent
-)
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 
+)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

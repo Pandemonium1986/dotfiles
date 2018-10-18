@@ -13,9 +13,11 @@ Il s'agit de ma "One line install" pour debian 9.
 sudo apt update && sudo apt install build-essential cowsay curl dkms dnsutils fonts-powerline git gitk htop libfortune-perl man mlocate module-assistant net-tools nmap powerline sudo tmux tree unzip vim zsh
 ```
 
-Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé.
+Il faut aussi que [oh-my-zsh](http://ohmyz.sh/) soit installé ainsi que les plugins zsh-autosuggestions zsh-syntax-highlighting.
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
 Il faut aussi que [tmuxifier](https://github.com/jimeh/tmuxifier) soit installé.
