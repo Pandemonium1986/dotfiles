@@ -10,7 +10,7 @@ new_window "main"
 split_v 27
 split_h 75
 split_h 32
-run_cmd "watch -tn 3600 'fortune -a /home/pandemonium/.oh-my-zsh/plugins/chucknorris/fortunes | cowthink'" 1
+run_cmd "watch -tn 3600 'fortune -a /home/$USER/.oh-my-zsh/plugins/chucknorris/fortunes | cowthink'" 1
 run_cmd "watch -tn 3600 'df -h --output=target,used,avail,size,pcent'" 3
 run_cmd "htop" 2
 
