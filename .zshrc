@@ -67,6 +67,8 @@ plugins=(
   debian
   extract
   history
+  kubectl
+  minikube
   ssh-agent
   zsh-autosuggestions
   zsh-syntax-highlighting
