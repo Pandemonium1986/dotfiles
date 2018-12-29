@@ -59,17 +59,18 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  git-flow
+  chucknorris
   colored-man-pages
   composer
-  chucknorris
   debian
   extract
+  git
+  git-flow
   history
   kubectl
   minikube
   ssh-agent
+  vagrant
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
