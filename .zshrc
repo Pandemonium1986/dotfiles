@@ -59,10 +59,12 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  ansible
   chucknorris
   colored-man-pages
   composer
   debian
+  docker
   extract
   git
   git-flow
@@ -110,6 +112,7 @@ alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
 alias session="tmuxifier load-session"
 alias window="tmuxifier load-window"
+alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
 
 # Tmuxifier init
 eval "$(tmuxifier init -)"

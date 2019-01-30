@@ -8,3 +8,9 @@ export apt_pref='apt'
 
 # Vagrant Wsl
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+
+# Wsl Fix
+umask 022
+
+# Pandemonium environment.
+export GIT_PATH="/mnt/d/git"
