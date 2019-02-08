@@ -65,6 +65,7 @@ plugins=(
   composer
   debian
   docker
+  docker-compose
   extract
   git
   git-flow
