@@ -1,0 +1,52 @@
+"*":
+  "atom-beautify":
+    bash: {}
+    general: {}
+    yaml: {}
+  autosave: {}
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
+  core:
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.ansible-advanced": [
+        "main.yml"
+      ]
+    projectHome: "D:\\git"
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+  "exception-reporting":
+    userId: "37827a1d-ad50-4638-a816-8429e7a4c5ad"
+  "file-icons": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "highlight-selected": {}
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "linter-js-yaml": {}
+  "linter-ui-default":
+    panelHeight: 158
+    showPanel: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  "status-bar": {}
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".ansible-advanced.source":
+  editor:
+    tabType: "soft"
+".ansible.source":
+  editor:
+    tabType: "soft"
