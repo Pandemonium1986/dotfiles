@@ -114,6 +114,7 @@ alias zshsource="source ~/.zshrc"
 alias session="tmuxifier load-session"
 alias window="tmuxifier load-window"
 alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
+alias cdg="cd $GIT_PATH"
 
 # Tmuxifier init
 eval "$(tmuxifier init -)"
