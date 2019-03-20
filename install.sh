@@ -147,7 +147,7 @@ while [ $# -gt 0 ]; do
 		installDotfile ".gitconfig"
 		;;
 	ssh)
-		installDotfile ".ssh"
+		installDotfile ".ssh/config"
 		;;
 	zsh)
 		installDotfile ".zshrc"
