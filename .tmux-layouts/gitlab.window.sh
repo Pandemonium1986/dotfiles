@@ -9,9 +9,9 @@ new_window "gitlab"
 # Split window into panes.
 split_v 50
 split_h 50
-run_cmd "gotogtbmma" 1
-run_cmd "gotogtbdev" 2
-run_cmd "gotogtbprd" 3
+run_cmd "gotogtlmma" clear 1
+run_cmd "gotogtldev" clear 2
+run_cmd "gotogtlprd" clear 3
 
 # Run commands.
 # run_cmd "top"     # runs in active pane
