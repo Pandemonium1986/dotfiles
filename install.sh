@@ -37,6 +37,7 @@ Command available are
   - --help|-h : Print this usage.
   - all : Install all dotfiles.
   - git : Install git dotfiles.
+  - ssh : Install ssh dotfiles.
   - zsh : Install zsh dotfiles.
   - tmux : Install tmux dotfiles.
   - tmuxifier : Install tmux-layouts dotfiles.
@@ -145,6 +146,9 @@ while [ $# -gt 0 ]; do
 	git)
 		installDotfile ".gitconfig"
 		;;
+	ssh)
+		installDotfile ".ssh"
+		;;
 	zsh)
 		installDotfile ".zshrc"
 		installDotfile ".zshenv"
@@ -162,5 +166,3 @@ while [ $# -gt 0 ]; do
 	esac
 	shift
 done
-
-
