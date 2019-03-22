@@ -120,6 +120,8 @@ alias window="tmuxifier load-window"
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
 
-
 # Tmuxifier init
 eval "$(tmuxifier init -)"
+
+# docker / docker-compose completion
+autoload -Uz compinit && compinit -i
