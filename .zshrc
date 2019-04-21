@@ -109,13 +109,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Personal aliases
-alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
 alias cdg="cd $GIT_PATH"
-alias gotogtlmma="ssh dev-mma-ubt"
+alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
+alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama"
 alias gotogtlbft="ssh dev-bft-cts"
-alias gotogtlrct="ssh rct-gitlab-ubt"
+alias gotogtlmma="ssh dev-mma-ubt"
 alias gotogtlprd="ssh gitlab-ubt"
+alias gotogtlrct="ssh rct-gitlab-ubt"
 alias session="tmuxifier load-session"
+alias vgt="vagrant"
 alias window="tmuxifier load-window"
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
