@@ -7,7 +7,6 @@
   "bracket-matcher":
     highlightMatchingLineNumber: true
   core:
-    closeEmptyWindows: false
     customFileTypes:
       "source.ansible-advanced": [
         "main.yml"
@@ -31,6 +30,8 @@
   "linter-ui-default":
     panelHeight: 158
     showPanel: true
+  "markdown-preview":
+    breakOnSingleNewline: true
   minimap:
     plugins:
       "highlight-selected": true
