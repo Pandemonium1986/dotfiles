@@ -1,0 +1,17 @@
+---
+- name:        Check the state of {{ file }}
+  stat:
+    path:      "{{ install_home_path }}/{{ file }}"
+  register:    res
+- name:        Backup {{ file }}
+  synchronize:
+    src:       "{{ install_home_path }}/{{ file }}"
+    dest:      "{{ install_backup_path }}/{{ file }}"
+  when:        res.stat.islnk is defined and res.stat.islnk == False
+- name:        Ensure symlink exists for {{ file }}
+  file:
+    src:       "{{ install_dotfiles_path }}/{{ file }}"
+    dest:      "{{ install_home_path }}/{{ file }}"
+    state:     link
+    force:     true
+  when:        res.stat.islnk is not defined or (res.stat.islnk is defined and res.stat.islnk == False)

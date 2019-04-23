@@ -1,0 +1,39 @@
+---
+- name :                        Linux Mint installation and configuration
+  hosts:                        127.0.0.1
+  connection:                   local
+  become:                       false
+  vars:
+    install_user:               "{{ ansible_env.USER }}"
+    install_home_path:          "{{ ansible_env.HOME }}"
+    install_dotfiles_path:      "{{ ansible_env.PWD }}"
+    install_backup_directory:   ".backupdotfiles"
+    install_backup_directories: ['.atom', '.config', '.ssh']
+    install_backup_path:        "{{ install_home_path }}/{{ install_backup_directory }}"
+    dotfiles_files:
+      - .atom/config.cson
+      - .atom/github.cson
+      - .atom/init.coffee
+      - .atom/keymap.cson
+      - .atom/snippets.cson
+      - .atom/styles.less
+      - .config/htoprc
+      - .gitconfig
+      - .ssh/config
+      - .tmux-layouts
+      - .tmux.conf
+      - .zshenv
+      - .zshrc
+  tasks:
+    - name:                     Ensure backup directory exits
+      file:
+        path:                   "{{ install_backup_path }}/{{ item }}"
+        state:                  directory
+        mode:                   0755
+      loop:                     "{{ install_backup_directories|flatten(levels=1) }}"
+    - name:                     Include dotfiles tasks
+      include_tasks:
+        file:                   dotfiles.yml
+      loop:                     "{{ dotfiles_files|flatten(levels=1) }}"
+      loop_control:
+        loop_var:               file
