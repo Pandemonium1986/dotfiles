@@ -10,20 +10,25 @@
     install_backup_directory: ".backupdotfiles"
     install_backup_path:      "{{ install_home_path }}/{{ install_backup_directory }}"
     dotfiles_files:
+      - .atom/config.cson
+      - .atom/github.cson
+      - .atom/init.coffee
+      - .atom/keymap.cson
+      - .atom/snippets.cson
+      - .atom/styles.less
+      - .config/htoprc
       - .gitconfig
+      - .ssh/config
+      - .tmux-layouts
       - .tmux.conf
       - .zshenv
       - .zshrc
-      - .tmux-layouts
-      - .config/htoprc
-
   tasks:
     - name:                   Ensure backup directory exits
       file:
         path:                 "{{ install_backup_path }}"
         state:                directory
         mode:                 0755
-
     - name:                   Include dotfiles tasks
       include_tasks:
         file:                 dotfiles.yml
