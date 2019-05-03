@@ -61,6 +61,7 @@ ENABLE_CORRECTION="true"
 plugins=(
   ansible
   chucknorris
+  colorize
   colored-man-pages
   composer
   debian
