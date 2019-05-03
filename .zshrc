@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # Personal aliases
 alias cdg="cd $GIT_PATH"
 alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
-alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama"
+alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama-pic"
 alias gotogtlbft="ssh dev-bft-cts"
 alias gotogtlmma="ssh dev-mma-ubt"
 alias gotogtlmmacts="ssh dev-mma-cts"
