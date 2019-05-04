@@ -129,3 +129,12 @@ eval "$(tmuxifier init -)"
 
 # docker / docker-compose completion
 autoload -Uz compinit && compinit -i
+
+# Override prompt_dir function if we are in virtual host
+AM_I_VIRTUAL=`systemd-detect-virt`
+if [[ "${AM_I_VIRTUAL}" != "none" ]]
+then
+  prompt_dir() {
+    prompt_segment green $CURRENT_FG '%~'
+  }
+fi
