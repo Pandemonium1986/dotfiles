@@ -11,7 +11,7 @@
       "source.ansible-advanced": [
         "main.yml"
       ]
-    projectHome: "D:\\git"
+    projectHome: "/home/pandemonium/git"
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   editor:
@@ -27,6 +27,8 @@
   "line-ending-selector":
     defaultLineEnding: "LF"
   "linter-js-yaml": {}
+  "linter-shellcheck":
+    shellcheckExecutablePath: "/usr/bin/shellcheck"
   "linter-ui-default":
     panelHeight: 158
     showPanel: true
@@ -51,5 +53,8 @@
   editor:
     tabType: "soft"
 ".ansible.source":
+  editor:
+    tabType: "soft"
+".shell.source":
   editor:
     tabType: "soft"
