@@ -61,8 +61,8 @@ ENABLE_CORRECTION="true"
 plugins=(
   ansible
   chucknorris
-  colorize
   colored-man-pages
+  colorize
   composer
   debian
   docker
@@ -71,6 +71,7 @@ plugins=(
   git
   git-flow
   history
+  jhipster
   kubectl
   minikube
   ssh-agent
