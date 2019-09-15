@@ -11,9 +11,10 @@ if initialize_session "pdm"; then
 
   # Load a defined window layout.
   load_window "pdm-main-window"
+  load_window "pandama-pic"
 
   # Select the default active window on session creation.
-  #select_window 1
+  select_window 0
 
 fi
 
