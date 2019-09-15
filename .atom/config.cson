@@ -46,7 +46,8 @@
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".ansible-advanced.source":
