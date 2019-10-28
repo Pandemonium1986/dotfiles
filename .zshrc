@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # Personal aliases
 alias cdg="cd $GIT_PATH"
 alias cdp="cd $GIT_PATH/Pandemonium1986/pandama"
+alias cds="cd $GIT_PATH/Pandemonium1986/slides-show"
 alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama-pic"
 alias devolabup="sudo systemctl start openfortivpn.service"
 alias devolabdown="sudo systemctl stop openfortivpn.service"
