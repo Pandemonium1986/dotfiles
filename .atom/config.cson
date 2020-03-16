@@ -31,7 +31,6 @@
     shellcheckExecutablePath: "/usr/bin/shellcheck"
   "linter-ui-default":
     panelHeight: 158
-    showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true
   minimap:
