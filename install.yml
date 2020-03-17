@@ -8,7 +8,7 @@
     install_home_path:          "{{ ansible_env.HOME }}"
     install_dotfiles_path:      "{{ ansible_env.PWD }}"
     install_backup_directory:   ".backupdotfiles"
-    install_backup_directories: ['.atom', '.config', '.ssh']
+    install_backup_directories: ['.atom', '.config/xed', '.config/yamllint', '.ssh']
     install_backup_path:        "{{ install_home_path }}/{{ install_backup_directory }}"
     dotfiles_files:
       - .atom/config.cson
@@ -19,6 +19,7 @@
       - .atom/styles.less
       - .config/htoprc
       - .config/xed/accels
+      - .config/yamllint/config
       - .gitconfig
       - .ssh/config
       - .tmux-layouts
