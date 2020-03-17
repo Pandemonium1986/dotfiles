@@ -18,6 +18,7 @@
       - .atom/snippets.cson
       - .atom/styles.less
       - .config/htoprc
+      - .config/xed/accels
       - .gitconfig
       - .ssh/config
       - .tmux-layouts
