@@ -17,7 +17,7 @@
       - .atom/keymap.cson
       - .atom/snippets.cson
       - .atom/styles.less
-      - .config/htoprc
+      - .config/htop/htoprc
       - .config/xed/accels
       - .config/yamllint/config
       - .gitconfig
