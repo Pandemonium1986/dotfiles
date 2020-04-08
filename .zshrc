@@ -117,15 +117,17 @@ alias cds="cd $GIT_PATH/Pandemonium1986/slides-show"
 alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama-pic"
 alias devolabup="sudo systemctl start openfortivpn.service"
 alias devolabdown="sudo systemctl stop openfortivpn.service"
-alias gotogtlbft="ssh dev-bft-cts"
-alias gotogtldev="ssh dev-gitlab-ubt"
-alias gotogtlprd="ssh gitlab-ubt"
-alias gotorunprd="ssh runner-ubt"
 alias session="tmuxifier load-session"
 alias vgt="vagrant"
 alias window="tmuxifier load-window"
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
+
+# Goto
+alias gotoansvm="ssh ansible-vm"
+alias gotobluvm="ssh blue-vm"
+alias gotogrevm="ssh green-vm"
+alias gotohapvm="ssh haproxy-vm"
 
 # Tmuxifier init
 eval "$(tmuxifier init -)"
