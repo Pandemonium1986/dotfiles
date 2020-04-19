@@ -1,12 +1,21 @@
 "*":
+  "activate-power-mode":
+    playAudio:
+      audioclip: "customAudioclip"
+    plugins:
+      playAudio: true
+      screenShake: true
   "atom-beautify":
-    bash: {}
+    bash:
+      indent_size: 2
+      indent_with_tabs: false
     general: {}
     yaml: {}
   autosave: {}
   "bracket-matcher":
     highlightMatchingLineNumber: true
   core:
+    closeDeletedFileTabs: true
     customFileTypes:
       "source.ansible-advanced": [
         "main.yml"
@@ -15,6 +24,7 @@
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   editor:
+    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softTabs: false
@@ -26,14 +36,16 @@
   "highlight-selected": {}
   "line-ending-selector":
     defaultLineEnding: "LF"
+  "linter-docker":
+    executablePath: "/usr/bin/dockerlint"
   "linter-js-yaml": {}
   "linter-shellcheck":
     shellcheckExecutablePath: "/usr/bin/shellcheck"
   "linter-ui-default":
-    panelHeight: 158
+    panelHeight: -19
     showPanel: true
-  "markdown-preview":
-    breakOnSingleNewline: true
+  "linter-vagrant-validate": {}
+  "markdown-preview": {}
   minimap:
     plugins:
       "highlight-selected": true
