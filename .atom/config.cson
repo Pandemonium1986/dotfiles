@@ -1,15 +1,18 @@
 "*":
   "activate-power-mode":
+    comboMode: {}
     playAudio:
       audioclip: "customAudioclip"
     plugins:
       playAudio: true
-      screenShake: true
+      screenShake: false
   "atom-beautify":
     bash:
       indent_size: 2
       indent_with_tabs: false
     general: {}
+    html:
+      indent_inner_html: true
     yaml: {}
   autosave: {}
   "bracket-matcher":
@@ -58,8 +61,7 @@
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".ansible-advanced.source":
@@ -68,6 +70,9 @@
 ".ansible.source":
   editor:
     tabType: "soft"
+".basic.html.text":
+  editor:
+    tabType: "auto"
 ".shell.source":
   editor:
     tabType: "soft"
