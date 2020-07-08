@@ -11,7 +11,8 @@ if initialize_session "pdm"; then
 
   # Load a defined window layout.
   load_window "pdm-main-window"
-  load_window "pandama-pic"
+  load_window "vagrant-midgar"
+  load_window "vagrant-corel"
 
   # Select the default active window on session creation.
   select_window 0

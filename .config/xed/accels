@@ -35,6 +35,7 @@
 ; (gtk_accel_path "<Actions>/XedWindowActions/EditToggleCommentBlock" "<Primary><Shift>question")
 ; (gtk_accel_path "<Actions>/XedWindowActions/EditDelete" "")
 ; (gtk_accel_path "<Actions>/XedWindowActions/FileCloseAll" "<Primary><Shift>w")
+; (gtk_accel_path "<Actions>/DocumentsListActions/Tab_1" "<Alt>2")
 ; (gtk_accel_path "<Actions>/DocumentsListActions/Tab_0" "<Alt>1")
 ; (gtk_accel_path "<Actions>/XedTimePluginActions/InsertDateAndTime" "")
 ; (gtk_accel_path "<Actions>/FileBrowserPluginExtra/SetActiveRoot" "")
