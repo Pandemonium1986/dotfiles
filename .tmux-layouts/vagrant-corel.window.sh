@@ -12,9 +12,9 @@ select_pane 0
 split_h 50
 
 # Run commands.
-run_cmd "vagrant up" 2
-run_cmd "sleep 15 && vagrant ssh corel-awx-cts" 0
-run_cmd "sleep 45 && vagrant ssh corel-obs-cts" 1
+send_keys "vagrant up" 2
+send_keys "sleep 15 && vagrant ssh corel-awx-cts" 0
+send_keys "sleep 45 && vagrant ssh corel-obs-cts" 1
 
 # Paste text
 
