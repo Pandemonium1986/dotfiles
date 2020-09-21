@@ -31,6 +31,7 @@
       package:
         name:                   rsync
         state:                  present
+      become:                   true
     - name:                     Ensure dotfiles folders directories exists
       file:
         path:                   "{{ install_home_path }}/{{ item }}"
