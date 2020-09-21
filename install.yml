@@ -27,6 +27,10 @@
       - .zshenv
       - .zshrc
   tasks:
+    - name:                     Ensure rsync is installed
+      package:
+        name:                   rsync
+        state:                  present
     - name:                     Ensure dotfiles folders directories exists
       file:
         path:                   "{{ install_home_path }}/{{ item }}"
