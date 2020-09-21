@@ -9,6 +9,7 @@
     install_dotfiles_path:      "{{ ansible_env.PWD }}"
     install_backup_directory:   ".backupdotfiles"
     install_backup_directories: ['.atom', '.config/xed', '.config/yamllint','.config/htop', '.ssh']
+    install_directories:        ['.atom', '.config/xed', '.config/yamllint','.config/htop']
     install_backup_path:        "{{ install_home_path }}/{{ install_backup_directory }}"
     dotfiles_files:
       - .atom/config.cson
@@ -37,7 +38,7 @@
         path:                   "{{ install_home_path }}/{{ item }}"
         state:                  directory
         mode:                   0755
-      loop:                     "{{ install_backup_directories|flatten(levels=1) }}"
+      loop:                     "{{ install_directories|flatten(levels=1) }}"
     - name:                     Ensure backup directory exists
       file:
         path:                   "{{ install_backup_path }}/{{ item }}"
