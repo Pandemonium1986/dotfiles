@@ -122,6 +122,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Personal aliases
 alias cdg="cd $GIT_PATH"
+alias cdack="cd $GIT_PATH/Pandemonium1986/ansible-collection-k8s-toolbox"
 alias cdpic="cd $GIT_PATH/Pandemonium1986/pandama-pic"
 alias cds="cd $GIT_PATH/Pandemonium1986/slides-show"
 alias cdvc="cd $GIT_PATH/Pandemonium1986/vagrant-corel"
