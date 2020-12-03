@@ -27,6 +27,7 @@
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   editor:
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -72,7 +73,7 @@
     tabType: "soft"
 ".basic.html.text":
   editor:
-    tabType: "auto"
+    tabType: "soft"
 ".shell.source":
   editor:
     tabType: "soft"
