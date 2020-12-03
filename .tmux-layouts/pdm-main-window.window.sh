@@ -8,12 +8,13 @@ new_window "main"
 
 # Split window into panes.
 split_v 35
-split_h 17
+split_h 30
 # split_h 32
 
 # Run commands.
 #run_cmd "watch -tn 3600 'fortune -a /home/$USER/.oh-my-zsh/plugins/chucknorris/fortunes | cowthink'" 1
-run_cmd "watch -tn 3600 'df -h --output=pcent,size,avail,used,target | sort -bfg'" 2
+run_cmd "cd /tmp && clear" 2
+run_cmd "duf --only local --hide-fs vfat --output mountpoint,size,used,avail,usage,filesystem --width 115" 2
 run_cmd "htop" 1
 
 # Paste text
