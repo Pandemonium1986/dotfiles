@@ -14,6 +14,12 @@ export EDITOR="vim"
 # oh-my-zsh debian plugin
 export apt_pref="apt"
 
+# bundle
+export GEM_HOME="$HOME/.bundle"
+export BUNDLE_SILENCE_ROOT_WARNING=1
+export BUNDLE_APP_CONFIG="$GEM_HOME"
+export PATH="$GEM_HOME/bin:$PATH"
+
 # Vagrant Wsl
 # export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 

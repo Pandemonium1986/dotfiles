@@ -22,3 +22,6 @@
 	editor = vim
 [pull]
 	rebase = true
+[user]
+	name = Pandemonium1986
+	email = michael.maffait@gmail.com

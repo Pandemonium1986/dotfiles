@@ -27,7 +27,6 @@
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   editor:
-    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -46,7 +45,7 @@
   "linter-shellcheck":
     shellcheckExecutablePath: "/usr/bin/shellcheck"
   "linter-ui-default":
-    panelHeight: -19
+    panelHeight: 127
     showPanel: true
   "linter-vagrant-validate": {}
   "markdown-preview": {}

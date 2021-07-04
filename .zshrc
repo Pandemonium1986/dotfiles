@@ -85,6 +85,7 @@ plugins=(
   minikube
   pip
   ssh-agent
+  terraform
   vagrant
   zsh-autosuggestions
   zsh-syntax-highlighting
