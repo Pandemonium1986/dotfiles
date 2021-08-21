@@ -5,7 +5,7 @@
       audioclip: "customAudioclip"
     plugins:
       playAudio: true
-      screenShake: false
+      screenShake: true
   "atom-beautify":
     bash:
       indent_size: 2
@@ -46,7 +46,6 @@
     shellcheckExecutablePath: "/usr/bin/shellcheck"
   "linter-ui-default":
     panelHeight: 127
-    showPanel: true
   "linter-vagrant-validate": {}
   "markdown-preview": {}
   minimap:
