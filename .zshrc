@@ -79,6 +79,7 @@ plugins=(
   extract
   git
   git-flow
+  gpg-agent
   history
   jhipster
   kubectl
