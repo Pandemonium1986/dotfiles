@@ -25,6 +25,6 @@
 [user]
 	name = Pandemonium1986
 	email = 15736601+Pandemonium1986@users.noreply.github.com
-	signingkey = 067C37DDFC407180
+	signingkey = 0FAF3CB4D479FDE0
 [commit]
 	gpgsign = true
