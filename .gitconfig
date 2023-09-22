@@ -23,7 +23,7 @@
 [pull]
 	rebase = true
 [user]
-	name = Pandemonium1986
+	name = Michael Maffait
 	email = 15736601+Pandemonium1986@users.noreply.github.com
 	signingkey = 067C37DDFC407180
 [commit]
